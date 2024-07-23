@@ -13,11 +13,11 @@ This project compares three sorting algorithms: Merge Sort, Insertion Sort, and 
 ## Results
 The execution times for each algorithm were measured using the `timeit` module is in the table below (sec):
 
-|Algorythm       |      100|     1000|     10000|     100000|
-|:---------------|--------:|--------:|---------:|----------:|
-|Merge Sort      | 0.001609| 0.033101|  0.382674|   5.518205|
-|Insertion Sort  | 0.002409| 0.297242| 34.310235|4302.906866|
-|Timsort         | 0.000054| 0.001003|  0.015181|   0.370746|
+|Algorythm       |      100|     1,000|     10,000|     100,000|
+|:---------------|--------:|---------:|----------:|-----------:|
+|Merge Sort      | 0.001609|  0.033101|   0.382674|    5.518205|
+|Insertion Sort  | 0.002409|  0.297242|  34.310235|4,302.906866|
+|Timsort         | 0.000054|  0.001003|   0.015181|    0.370746|
 
 Timsort consistently outperformed the other two algorithms. The difference in the performance is getting more and more notable as the sample size grows.
 
